@@ -1,0 +1,96 @@
+
+#cake{
+    float: left;
+    padding-right: 4em;
+}
+#glow{
+    float:left;
+    padding-right: 16em;
+    position: absolute;
+}
+#carry{
+    float: left;
+}
+#welcome.callout{
+    padding-bottom: 2em;
+    background-color: #2c3e40;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+#use.callout{
+    padding-bottom: 2em;
+    background-color: #2c3e40;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+#title.callout{
+    padding-bottom: 2em;
+    background-color: #2c3e40;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+#title-index.callout{
+    padding-bottom: 8em;
+    background-color: #2c3e40;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+#ingredients.callout{
+    margin-top: 2em;
+    background-color: #2c3e40;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+#directions.callout{
+    margin-top: 2em;
+    background-color: #2c3e40;
+    color: white;
+    font-family: 'Cinzel', serif;
+}
+#directions.cell.small-4{
+    margin-left: auto;
+}
+#ingredients.cell.small-4{
+    margin-right: auto;
+}
+
+body{
+    padding-left: 10em;
+    padding-right: 10em;
+    background-image: url("bg pattern.jpg");
+}
+h1{
+    font-family: 'Cinzel', serif;
+}
+h3{
+    font-family: 'Cinzel', serif;
+}
+h5{
+    font-family: 'Cinzel', serif;
+}
+#body.callout{
+    background-color: #9EDFF7;
+}
+
+.top-bar{
+    font-family: 'Cinzel', serif;
+    background-color: white;
+
+ }
+ 
+ .button{
+     background-color: #2c3e40;
+ }
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: white;
+    color: #2c3e40;
+    text-align: center;
+    font-family: 'Cinzel', serif;
+    padding-top: 1em;
+ }
+
