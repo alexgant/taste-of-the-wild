@@ -35,7 +35,7 @@
     font-family: 'Cinzel', serif;
 }
 #title-index.callout{
-    padding-bottom: 8em;
+    /*padding-bottom: 8em;*/
     background-color: #2c3e40;
     color: white;
     font-family: 'Cinzel', serif;
@@ -110,4 +110,39 @@ h5{
     .grid-container {max-width: 380px;}
     /* .top-bar-right, .title-bar{display: inline-block;} */
     
+}
+
+/*css added for mobile -AG*/
+@media only screen and (max-width: 600px) {
+  body {
+    padding-left: 1em;
+    padding-right: 1em;
+    background-image: url("../images/bg pattern.jpg");
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1030px) {
+ div.grid-container {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+}
+
+@media (min-width: 601px) and (max-width: 1030px) {
+ body {
+    padding-left: 1%;
+    padding-right: 1%;
+  }
+}
+
+.home-content{
+	margin-bottom: 2em;
+}
+
+@media only screen and (max-width: 700px) {
+  .top-bar {
+    padding-left: 1em;
+    padding-right: 1em;
+    background-image: url("../images/bg pattern.jpg");
+  }
 }
