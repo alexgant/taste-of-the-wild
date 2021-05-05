@@ -8,6 +8,10 @@
     float: left;
     padding-right: 4em;
 }
+.callout{
+    position: relative;
+    overflow: auto;
+}
 
 #welcome.callout{
     padding-bottom: 2em;
@@ -93,13 +97,14 @@ h5{
  }
 
  @media(max-width: 780px){
-    .grid-container{min-width: 430px;}
-   
+    .grid-container{max-width: 450px;}
+    
+    
     
 }
 
 @media(max-width: 480px){
-    .grid-container {min-width: 200px;}
+    .grid-container {max-width: 380px;}
     /* .top-bar-right, .title-bar{display: inline-block;} */
     
 }
