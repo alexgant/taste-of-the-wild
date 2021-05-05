@@ -14,50 +14,49 @@
     <link href="https://fonts.googleapis.com/css2?family=Cinzel:wght@400;500&display=swap" rel="stylesheet">
   </head>
   <body>
-    <div class="top-bar">
-      <div class="top-bar-left">
-        <ul class="dropdown menu" data-dropdown-menu>
-          <li class="menu-text" li id="taste"><a href="../index.html">Taste of the Wild</a></li>
-          <li>
-              <a href="#">Cakes</a>
-              <ul class="menu">
-                  <li><a href="fruitcake.html">Fruit Cake</a></li>
-                  <li><a href="carrotcake.html">Carrot Cake</a></li>
-                  <li><a href="nutcake.html">Nut Cake</a></li>
-                  <li><a href="monstercake.html">Monster Cake</a></li>
-              </ul>
-          </li>
-
-          <li>
-            <a href="#">Pies</a>
-            <ul class="menu">
-                <li><a href="../pies/applepie.html">Apple Pie</a></li>
-                <li><a href="../pies/fruitpie.html">Fruit Pie</a></li>
-                <li><a href="../pies/pumpkinpie.html">Pumpkin Pie</a></li>
-            </ul>
-          </li>
-            <li>
+      <div class="title-bar" data-responsive-toggle="example-animated-menu" data-hide-for="medium">
+          <button class="menu-icon" type="button" data-toggle></button>
+          <div class="title-bar-title">Menu</div>
+        </div>
+        
+        <div class="top-bar" id="example-animated-menu" data-animate="hinge-in-from-top spin-out">
+          <div class="top-bar-left">
+            <ul class="dropdown menu" data-dropdown-menu>
+              <li class="menu-text">Breath of Fire</li>
+              <li>
+                <a href="#">Cakes</a>
+                <ul class="menu vertical">
+                  <li><a href="#">Fruit Cake</a></li>
+                  <li><a href="#">Type of cake</a></li>
+                  <li><a href="#">Type of cake</a></li>
+                </ul>
+              </li>
+              <li>
               <a href="#">Crepes</a>
-              <ul class="menu">
-                <li><a href="../crepes/crepes-honey.html">Crepes w/Honey Syrup</a></li>
-              </ul>
-            </li>
-            <li>
-              <a href="#">Elixers</a>
-              <ul class="menu">
-                <li><a href="../elixirs/chilly.html">Chilly</a></li>
-                <li><a href="../elixirs/electro.html">Electro</a></li>
-                <li><a href="../elixirs/fairytonic.html">Fairy Tonic</a></li>
-                <li><a href="../elixirs/hearty.html">Hearty</a></li>
-                <li><a href="../elixirs/enduring.html">Enduring</a></li>
+              <ul class="menu vertical">
+              <li><a href="#">Type of crepe</a></li>
+              <li><a href="#">Type of crepe</a></li>
             </ul>
-            </li>
-            <li><a href="#">Tips</a></li>
-        </ul>
-      </div>
+          </li>
+          <li>
+              <a href="#">Elixers</a>
+              <ul class="menu vertical">
+              <li><a href="#">Type of elixer</a></li>
+              <li><a href="#">Type of elixer</a></li>
+            </ul>
+          </li>
+          <li>
+              <a href="#">Tips</a>
+              <ul class="menu vertical">
+              <li><a href="#">Tip</a></li>
+              <li><a href="#">Tip</a></li>
+            </ul>
+          </li>
+          </div>
+        </div>
       <div class="top-bar-right">
         <ul class="menu">
-          <li><input type="search" placeholder="Search"></li>
+          <li><input type="search" placeholder="Fruitcake"></li>
           <li><button type="button" class="button">Search</button></li>
         </ul>
       </div>
