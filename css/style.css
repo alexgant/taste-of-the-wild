@@ -12,6 +12,9 @@
     position: relative;
     overflow: auto;
 }
+.sticky-container {
+    padding-top: 2em;
+}
 
 #welcome.callout{
     padding-bottom: 2em;
