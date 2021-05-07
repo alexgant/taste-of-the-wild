@@ -5,8 +5,9 @@
 }
 
 #carry{
-    float: left;
-    padding-right: 4em;
+  margin: auto;
+  display: block;
+  padding-bottom: 1em;
 }
 .callout{
     position: relative;
@@ -60,6 +61,12 @@
 
 #directions h3{
   font-size: 250%;
+}
+
+.recipe-title{
+  font-size: 250%;
+  font-weight: bold;
+  font-family: 'Cinzel', serif;
 }
 
 #directions.callout{
@@ -257,4 +264,8 @@ h5{
 
 ul{
   list-style: none;
+}
+
+.menu li{
+  padding: 0.7rem 1rem;
 }
