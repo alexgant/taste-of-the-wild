@@ -52,6 +52,17 @@
     color: white;
     font-family: 'Cinzel', serif;
 }
+
+#tip{
+    padding-bottom: 2em;
+    background-color: #2c3e40;
+    color: white;
+    font-family: 'Cinzel', serif;
+    height: 20rem;
+    margin-bottom: 2em;
+}
+
+
 #directions.cell.small-4{
     margin-left: auto;
 }
