@@ -20,13 +20,13 @@
     padding-bottom: 2em;
     background-color: #2c3e40;
     color: white;
-    font-family: 'Cinzel', serif;
+    font-family: Helvetica;
 }
 #use.callout{
     padding-bottom: 2em;
     background-color: #2c3e40;
     color: white;
-    font-family: 'Cinzel', serif;
+    font-family: Helvetica;
 }
 #title.callout{
     padding-bottom: 5em;
@@ -44,20 +44,20 @@
     margin-top: 2em;
     background-color: #2c3e40;
     color: white;
-    font-family: 'Cinzel', serif;
+    font-family: Helvetica;
 }
 #directions.callout{
     margin-top: 2em;
     background-color: #2c3e40;
     color: white;
-    font-family: 'Cinzel', serif;
+    font-family: Helvetica;
 }
 
 #tip{
     padding-bottom: 2em;
     background-color: #2c3e40;
     color: white;
-    font-family: 'Cinzel', serif;
+    font-family: Helvetica;
     height: 20rem;
     margin-bottom: 2em;
 }
